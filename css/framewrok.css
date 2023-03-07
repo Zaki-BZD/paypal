@@ -130,7 +130,7 @@ p{
 .container{
     width: 80%;
     margin: 0 auto;
-    max-width: 1800px;
+    max-width: 1400px;
 }
 @media (max-width:1040px) {
     .container{
