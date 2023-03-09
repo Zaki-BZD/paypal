@@ -947,7 +947,8 @@ margin: 50px;
  /* end zaki code */
  .placeholder-effect{
   position: relative;
-  width:100%;
+  width:100%; 
+  
  }
  .placeholder-effect input{
   padding: 1rem;
@@ -955,14 +956,16 @@ margin: 50px;
   border-radius: 5px;
   border: 1px solid var(--clr-border);
   width:100%;
+  
  }
  .placeholder-effect input:focus{
   border :2px solid  var(--clr-light)
-
+  
  }
  .placeholder-effect input:focus +label{
-  top: 3%;
+  top: 5%;
   font-size: 13px;
+  transition: .2s;
  }
  .placeholder-effect label{
   position: absolute;
